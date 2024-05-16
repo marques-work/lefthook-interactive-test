@@ -1,0 +1,6 @@
+pre-commit:
+  scripts:
+    check-main-branch.sh:
+      runner: bash
+      use_stdin: true
+      interactive: true
